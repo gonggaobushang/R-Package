@@ -20,11 +20,19 @@
      ![4.png](https://github.com/gonggaobushang/R-Package/blob/master/README%20Pic/4.png)  
      *先删除自动生成的NAMESPACE，然后* `devtools::document()` *生成新的NAMESPACE。此时qplot_001能被输出，而其他没有加* 
      `#' @export` *这一行的不会被输出。如果要引用什么其他包的话，直接用包名：：函数的方式。*
-
    
-4. 运行代码
+4. 写完脚本后，运行代码：
+    `library(devtools)`  
+    `load_all()` *加载R文件夹中的所有包*  
+    `document()`  *生成.Rd和NAMESPACE文档*  
+    `check()`  *检查，不能出现errors，最好没有warnings，notes无关紧要*  
+    `build()`  *生成tar.gz格式的包*  
+    `build(binary=T)` *成zip格式的包*
+5. 本地安装包，在rstudio中的Tools中，选择Install Packages
+    ![5.png](https://github.com/gonggaobushang/R-Package/blob/master/README%20Pic/5.png) 
+   
 
 
 
 ## example003
-一个非常简易粗糙的实例包。
+上面教程的package，一个非常简易粗糙的例子。

@@ -7,7 +7,8 @@
 
    *man：用来放.Rd文档的文件夹。.Rd：用来说明的文档，可有可无。即在Console中，？某一函数，在右边Help中会出现的文档。
    建议直接在R脚本里写，会自动在man中更新。*  
-   *如，* ![1.png](E:\\rpackage)
+   *如，在脚本中* ![1](https://github.com/gonggaobushang/R-Package/blob/master/README%20Pic/1.png)
+   *，则运行 `<devtools::document()>`后*
    
 4. 运行代码
 

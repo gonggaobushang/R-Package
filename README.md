@@ -27,7 +27,7 @@
     `document()`  *生成.Rd和NAMESPACE文档*  
     `check()`  *检查，不能出现errors，最好没有warnings，notes无关紧要*  
     `build()`  *生成tar.gz格式的包*  
-    `build(binary=T)` *成zip格式的包*
+    `build(binary=T)` *生成zip格式的包*
 5. 本地安装包，在rstudio中的Tools中，选择Install Packages  
     ![5.png](https://github.com/gonggaobushang/R-Package/blob/master/README%20Pic/5.png) 
    
